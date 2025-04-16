@@ -1,6 +1,60 @@
-# React + TypeScript + Vite
+# Game Backlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, user-friendly web app to track, manage, and rate your video games backlog. Add games, track their status, leave comments, and rate them as you complete your collection!
+
+## Features
+- Add games with automatic cover fetching (RAWG API)
+- Track status: To Do, In Progress, Completed
+- Inline editing for comments
+- Grade games on completion (0-10)
+- Restart completed games (resets grade & comment)
+- Responsive, dark mode UI
+- Persistent storage (localStorage)
+
+## Tech Stack
+- **React** (w/ TypeScript)
+- **Vite** for fast dev/build
+- **Framer Motion** for smooth animations
+- **Tailwind CSS** for styling
+
+## Installation
+
+### 1. Clone the repository
+```sh
+git clone https://github.com/nathan71370/GameBacklog.git
+cd GameBacklog
+```
+
+### 2. Install dependencies
+```sh
+npm install
+```
+
+### 3. Start the development server
+```sh
+npm run dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173) by default.
+
+## Usage
+- **Add a Game:** Click the "+" button and fill in the details. Covers are fetched automatically.
+- **Change Status:** Use the action buttons to move games through their lifecycle.
+- **Complete a Game:** Click "End Game" to rate and comment. Confetti will celebrate your achievement!
+- **Restart:** For completed games, use "Restart Game" to reset status, grade, and comment.
+
+## Customization & Export
+- All data is stored in your browser (localStorage).
+- You can export/import your backlog as JSON from the UI.
+
+https://buymeacoffee.com/azrodorza
+
+## License
+MIT
+
+---
+
+Enjoy managing your game backlog! If you have suggestions or want to contribute, feel free to open an issue or PR.
 
 Currently, two official plugins are available:
 
@@ -51,5 +105,3 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
-# GameBacklog
