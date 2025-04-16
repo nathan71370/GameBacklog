@@ -1,3 +1,5 @@
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/azrodorza)
+
 # Game Backlog
 
 A modern, user-friendly web app to track, manage, and rate your video games backlog. Add games, track their status, leave comments, and rate them as you complete your collection!
@@ -48,8 +50,6 @@ The app will be available at [http://localhost:5173](http://localhost:5173) by d
 ## Customization & Export
 - All data is stored in your browser (localStorage).
 - You can export/import your backlog as JSON from the UI.
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/azrodorza)
 
 ## License
 MIT
