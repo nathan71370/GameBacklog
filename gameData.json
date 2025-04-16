@@ -1,0 +1,2207 @@
+[
+  {
+    "id": "2",
+    "name": "Mario 64",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "3",
+    "name": "Mario sunshine",
+    "console": [
+      "Gamecube, Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "4",
+    "name": "Mario galaxy",
+    "console": [
+      "Wii, Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "10/10"
+  },
+  {
+    "id": "5",
+    "name": "Mario galaxy 2",
+    "console": [
+      "Wii"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "6",
+    "name": "Mario 3D world + Bowser Fury",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "7",
+    "name": "Mario odyss\u00e9e",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "8",
+    "name": "Mario Bros U",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "9",
+    "name": "Mario Bros Wonder",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "10",
+    "name": "Mario kart double dash",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "11",
+    "name": "Mario Kart 8 Deluxe",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "10/10"
+  },
+  {
+    "id": "12",
+    "name": "Mario Kart world",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "13",
+    "name": "Smash bros mel\u00e9e",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "14",
+    "name": "Smash Bros Ultimate",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "15",
+    "name": "Luigi Mansion",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "16",
+    "name": "Luigi Mansion 2",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "17",
+    "name": "Luigi Mansion 3",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "18",
+    "name": "Donkey Kong Country Returns HD",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "19",
+    "name": "Donkey Kong Country : Tropical Freeze",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "20",
+    "name": "Donkey Kong Bananza",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "21",
+    "name": "Kirby's Return To Dream Land Deluxe",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "3/10"
+  },
+  {
+    "id": "22",
+    "name": "Kirby Star Allies",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "23",
+    "name": "Kirby Et Le Monde Oubli\u00e9",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "24",
+    "name": "Kirby Et Le Monde Oubli\u00e9 + Le Pays Des \u00c9toiles Filantes - Nintendo Switch 2 Edition",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "25",
+    "name": "Yoshi's Crafted World",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "26",
+    "name": "Mario RPG",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "27",
+    "name": "Mario And Luigi : Superstar Saga + Les Sbires De Bowser",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "28",
+    "name": "Mario Et Luigi : Voyage Au Centre De Bowser + L'\u00c9pop\u00e9e De Bowser Jr",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "29",
+    "name": "Mario And Luigi : Dream Team Bros.",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "30",
+    "name": "Mario And Luigi : Paper Jam Bros.",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "31",
+    "name": "Mario Et Luigi : L'\u00c9pop\u00e9e Fraternelle",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "32",
+    "name": "Paper Mario : The Origami King",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "33",
+    "name": "Paper Mario : La Porte Mill\u00e9naire",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "34",
+    "name": "Mario Tennis : Power Tour",
+    "console": [
+      "Gameboy Advanced"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "35",
+    "name": "Mario tennis ACES",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "36",
+    "name": "Mario Smash Football",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "37",
+    "name": "Mario Strikers Charged Football",
+    "console": [
+      "Wii"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "38",
+    "name": "Mario Strikers : Battle League Football",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "3/10"
+  },
+  {
+    "id": "39",
+    "name": "Peach",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "40",
+    "name": "Princess Peach : Showtime !",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "41",
+    "name": "Metroid Dread",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "42",
+    "name": "Metroid Prime Remastered",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "43",
+    "name": "Metroid Prime 2 : Echoes",
+    "console": [
+      "Wii"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "44",
+    "name": "Metroid Prime 3 : Corruption",
+    "console": [
+      "Wii"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "45",
+    "name": "Metroid Prime 4 : Beyond",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "46",
+    "name": "L'Aventure Layton : Katrielle Et La Conspiration Des Millionnaires",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "47",
+    "name": "Mario party DS",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "48",
+    "name": "Mario party 9",
+    "console": [
+      "Wii"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "49",
+    "name": "Mario party superstar",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "50",
+    "name": "Mario party jamboree",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "51",
+    "name": "WarioWare: twisted!",
+    "console": [
+      "Gameboy Advanced"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "52",
+    "name": "WarioWare: Touched!",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "53",
+    "name": "WarioWare: Smooth Moves",
+    "console": [
+      "Wii"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "54",
+    "name": "WarioWare: Get it together",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "55",
+    "name": "WarioWare: Move It!",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "56",
+    "name": "Star fox aventure",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "57",
+    "name": "Advance War",
+    "console": [
+      "Gameboy Advanced"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "58",
+    "name": "The Legend Of Zelda : Tears Of The Kingdom",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "59",
+    "name": "The Legend Of Zelda : Echoes Of Wisdom",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "60",
+    "name": "The Legend Of Zelda : Link's Awakening",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "61",
+    "name": "bayoneta 3",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "62",
+    "name": "Pikmin 1",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "63",
+    "name": "Pikmin 2",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "64",
+    "name": "Pikmin 3 Deluxe",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "65",
+    "name": "Pikmin 4",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "66",
+    "name": "Prok\u00e9mon rouge et bleu",
+    "console": [
+      "Gameboy Color"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "67",
+    "name": "Pok\u00e9mon let's go evoli",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "68",
+    "name": "Pok\u00e9mon argent et or",
+    "console": [
+      "Gameboy Color"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "69",
+    "name": "prok\u00e9mon rubis, saphir et \u00e9meraude",
+    "console": [
+      "Gameboy Advanced"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "70",
+    "name": "pok\u00e9mon saphir alpha",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "71",
+    "name": "pok\u00e9mon diamant perle, etincelant scintillant",
+    "console": [
+      "Nintendo 3DS","Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "72",
+    "name": "Pok\u00e9mon noir et blanc",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "73",
+    "name": "pokemon X, Y",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "74",
+    "name": "pokemon Lune et soleil",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "75",
+    "name": "pokemon \u00e9p\u00e9e et bouclier",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "76",
+    "name": "pokemon ecarlate et violet",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "77",
+    "name": "L\u00e9gendes Pok\u00e9mon : Arceus",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "78",
+    "name": "L\u00e9gendes Pok\u00e9mon : Z-A",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "79",
+    "name": "Pok\u00e9mon Colosseum",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "80",
+    "name": "Pok\u00e9mon Donjon Myst\u00e8re : \u00c9quipe De Secours DX",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "81",
+    "name": "Pok\u00e9mon Ranger",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "82",
+    "name": "Pok\u00e9mon Ranger : Nuit Sur Almia",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "83",
+    "name": "Pok\u00e9mon Ranger : Sillages De Lumi\u00e8re",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "84",
+    "name": "Detective pikatchu",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "85",
+    "name": "le retour Detective pikatchu",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "2/10"
+  },
+  {
+    "id": "86",
+    "name": "Rayman 3 : Hoodlum Havoc",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "87",
+    "name": "Rayman Origins",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "88",
+    "name": "Rayman Legends",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "89",
+    "name": "Red Dead Redemption",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "90",
+    "name": "Red Dead Redemption 2",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "91",
+    "name": "Soldats Inconnus : M\u00e9moires De La Grande Guerre",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "92",
+    "name": "Soldats Inconnus : Fr\u00e8res D'Armes",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "2/10"
+  },
+  {
+    "id": "93",
+    "name": "The Last Of Us Part I",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "94",
+    "name": "The Last Of Us Part II Remastered",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "95",
+    "name": "Uncharted : Drake's Fortune",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "96",
+    "name": "Uncharted 2 : Among Thieves",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "97",
+    "name": "Uncharted 3 : L'Illusion De Drake",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "98",
+    "name": "Uncharted : Golden Abyss",
+    "console": [
+      "Playstation VITA"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "99",
+    "name": "Uncharted 4 : A Thief's End",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "100",
+    "name": "Uncharted : The Lost Legacy",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "101",
+    "name": "Far cry 3",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "102",
+    "name": "Far cry 6",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "103",
+    "name": "Rage 1",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "104",
+    "name": "Rage 2",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "105",
+    "name": "Disney Illusion Island",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "106",
+    "name": "Disney Epic Mickey",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "107",
+    "name": "Tomb raider 1",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "108",
+    "name": "Tomb raider 2",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "109",
+    "name": "Tomb raider 3",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "110",
+    "name": "Tomb raider 4",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "111",
+    "name": "Tomb raider 5",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "112",
+    "name": "Tomb raider 6",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "113",
+    "name": "Tomb raider legend",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "114",
+    "name": "Tombe raider anniversary",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "115",
+    "name": "Tombe raider underworld",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "116",
+    "name": "Tomb raider",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "117",
+    "name": "Rise of Tomb Raider",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "118",
+    "name": "Shadow of Tomb Raider",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "119",
+    "name": "Lara Croft and the Guardian of Light",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "120",
+    "name": "Lara Croft and the Temple of Osiris",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "121",
+    "name": "Okami",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "10/10"
+  },
+  {
+    "id": "122",
+    "name": "Beyond Good & Evil 20th Anniversary Edition",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "123",
+    "name": "Diablo 3",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "124",
+    "name": "Diablo immortal",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "125",
+    "name": "diablo 4",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "126",
+    "name": "Final Fantasy VII Remake Intergrade + INTERmission",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "127",
+    "name": "Final Fantasy VII Rebirth",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "128",
+    "name": "Grand Theft Auto III",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "129",
+    "name": "Grand Theft Auto : Vice City",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "130",
+    "name": "Grand Theft Auto : San Andreas",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "131",
+    "name": "Grand Theft Auto IV",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "132",
+    "name": "Grand Theft Auto V",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "133",
+    "name": "Grand Theft Auto : Chinatown Wars",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "134",
+    "name": "Until down",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "135",
+    "name": "Heavy rain",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "136",
+    "name": "Beyond two souls",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "137",
+    "name": "Detroit become Humain",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "138",
+    "name": "Scribblenauts",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "139",
+    "name": "Scribblenauts Unlimited",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "140",
+    "name": "Scribblenauts Unmasked",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "141",
+    "name": "Scribblenauts showdown",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "142",
+    "name": "Ori And The Blind Forest",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "143",
+    "name": "Ori And The Will Of The Wisps",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "144",
+    "name": "The witche 3",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "145",
+    "name": "SSX",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "146",
+    "name": "Brothers",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "3/10"
+  },
+  {
+    "id": "147",
+    "name": "A way Out",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "148",
+    "name": "In takes Two",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "149",
+    "name": "Split fiction",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "150",
+    "name": "Need for speed most wanted",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "151",
+    "name": "Need for speed undercover",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "152",
+    "name": "Need for speed hot poursuit",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "153",
+    "name": "Call od duty world at war",
+    "console": [
+      "Nintendo 3DS"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "154",
+    "name": "call of duty black ops 2",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "155",
+    "name": "call of duty black ops 3",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "156",
+    "name": "call of duty modern warfare 2019",
+    "console": [
+      "Xbox ONE"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "157",
+    "name": "Battlefield",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "158",
+    "name": "battlefield 3",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "159",
+    "name": "Mirror's edge",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "160",
+    "name": "Mirror's edge Catalyst",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "161",
+    "name": "Resident evil 4",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "162",
+    "name": "god of war 3",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "163",
+    "name": "god of war",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "164",
+    "name": "god of war ragnarok",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "165",
+    "name": "Star Wars fallen order",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "166",
+    "name": "Star Wars jedi survivor",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "167",
+    "name": "Star Wars Outlaws",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "168",
+    "name": "Star Wars : The Clone Wars",
+    "console": [
+      "Gamecube"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "169",
+    "name": "Harry potter et la chambre des secrets",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "170",
+    "name": "Hogward legacy",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "171",
+    "name": "Assasin's creed 2",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "172",
+    "name": "Assasin's creed Mirage",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "173",
+    "name": "Fable 2",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "174",
+    "name": "Fable 3",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "175",
+    "name": "Ratchet clank",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "176",
+    "name": "Prince of persia the lost crown",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "177",
+    "name": "prince of persia les sables du temps",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "178",
+    "name": "Little nightmares 2",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "179",
+    "name": "reanimals",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "180",
+    "name": "Monster Hunter rise",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "181",
+    "name": "Bioshock",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "9/10"
+  },
+  {
+    "id": "182",
+    "name": "Bioshock 2",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "183",
+    "name": "Bioshock Infinite",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "184",
+    "name": "Left for dead 2",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "185",
+    "name": "skyrim",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "186",
+    "name": "Hotline miami",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "10/10"
+  },
+  {
+    "id": "187",
+    "name": "Hotline miami 2 wrong number",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "188",
+    "name": "Trine",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "189",
+    "name": "Trine",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "190",
+    "name": "Trine 2",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "191",
+    "name": "Half life",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "192",
+    "name": "Half life",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "193",
+    "name": "Half life 2",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "194",
+    "name": "Metro 2033",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "195",
+    "name": "Metro 2033 Redux",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "196",
+    "name": "Metro Last Light Redux",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "197",
+    "name": "Mortal Kombat 9",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "198",
+    "name": "Mortal Kombat 10",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "199",
+    "name": "Street fighter 2 Turbo",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "200",
+    "name": "Street fighter 4",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "201",
+    "name": "Watch dog l\u00e9gion",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "202",
+    "name": "Dishonored",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "203",
+    "name": "Dishonored 2",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "204",
+    "name": "Max Payne 3",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "205",
+    "name": "Crysis",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "206",
+    "name": "Crysis 2",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "207",
+    "name": "Crysis 3",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "208",
+    "name": "Marvel Heroes",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "209",
+    "name": "Sniper Elite 5",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "210",
+    "name": "Batman: Arkham Asylum",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "211",
+    "name": "Horizon zero dawn",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "212",
+    "name": "Horizon Forbidden West",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "213",
+    "name": "Baldur's Gate III",
+    "console": [
+      ""
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "214",
+    "name": "Dying Light 2: Stay Human",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "215",
+    "name": "Dead island",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "216",
+    "name": "Dead island 2",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "217",
+    "name": "Jak and Daxter",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "218",
+    "name": "Jak and Daxter 2",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "219",
+    "name": "Jak and Daxter 3",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "220",
+    "name": "Deus Ex",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "221",
+    "name": "Serious Sam 3: BFE",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "222",
+    "name": "Tales of Kenzera\u2122: ZAU",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "223",
+    "name": "Cyberpunk 2077",
+    "console": [
+      "Nintendo Switch 2"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "224",
+    "name": "Buletstorm",
+    "console": [
+      "Xbox 360"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "225",
+    "name": "Minecraft",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "226",
+    "name": "Stardew Valley",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "227",
+    "name": "Celeste",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "228",
+    "name": "Paper please",
+    "console": [
+      "IOS"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "229",
+    "name": "Shovel knight",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "230",
+    "name": "Dead cells",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "231",
+    "name": "Death Rally",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "232",
+    "name": "BattleBlock Theater",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "233",
+    "name": "Raft",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "6/10"
+  },
+  {
+    "id": "234",
+    "name": "Alice: Madness Returns",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  },
+  {
+    "id": "235",
+    "name": "JUJU",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "2/10"
+  },
+  {
+    "id": "236",
+    "name": "Injustice",
+    "console": [
+      "PC"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "237",
+    "name": "Undertale",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "238",
+    "name": "Spec ops the Line",
+    "console": [
+      "PC"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "239",
+    "name": "Unpacking",
+    "console": [
+      "IOS"
+    ],
+    "status": "completed",
+    "personalRating": "5/10"
+  },
+  {
+    "id": "240",
+    "name": "Kirikou",
+    "console": [
+      "Gameboy Color"
+    ],
+    "status": "completed",
+    "personalRating": "3/10"
+  },
+  {
+    "id": "241",
+    "name": "Unravel two",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "completed",
+    "personalRating": "7/10"
+  },
+  {
+    "id": "242",
+    "name": "Brawl stars",
+    "console": [
+      "IOS"
+    ],
+    "status": "completed",
+    "personalRating": "4/10"
+  },
+  {
+    "id": "243",
+    "name": "Heroes Charge",
+    "console": [
+      "IOS"
+    ],
+    "status": "completed",
+    "personalRating": "3/10"
+  },
+  {
+    "id": "244",
+    "name": "Cuphead",
+    "console": [
+      "Nintendo Switch"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "245",
+    "name": "Control",
+    "console": [
+      "Playstation 4"
+    ],
+    "status": "todo",
+    "personalRating": null
+  },
+  {
+    "id": "246",
+    "name": "Super Hexagon",
+    "console": [
+      "IOS"
+    ],
+    "status": "completed",
+    "personalRating": "8/10"
+  }
+]
