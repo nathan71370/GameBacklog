@@ -10,7 +10,35 @@ const statusOptions = ["todo", "in-progress", "completed"];
 
 const GameEditModal: React.FC<GameEditModalProps> = ({ open, onClose, onSave }) => {
   const [name, setName] = React.useState("");
-  const [consoleInput, setConsoleInput] = React.useState("");
+  // Use multi-select for consoles
+  const [selectedConsoles, setSelectedConsoles] = React.useState<string[]>([]);
+  const [consoleOptions, setConsoleOptions] = React.useState<string[]>([]);
+  const [consoleInput, setConsoleInput] = React.useState<string>("");
+
+  React.useEffect(() => {
+    const stored = localStorage.getItem("consoles");
+    if (stored) {
+      setConsoleOptions(JSON.parse(stored));
+    }
+  }, [open]);
+
+  const handleAddConsole = () => {
+    const val = consoleInput.trim();
+    if (!val || consoleOptions.includes(val)) return;
+    const updated = [...consoleOptions, val];
+    setConsoleOptions(updated);
+    setConsoleInput("");
+    localStorage.setItem("consoles", JSON.stringify(updated));
+  };
+
+  const handleRemoveConsole = (val: string) => {
+    const updated = consoleOptions.filter(c => c !== val);
+    setConsoleOptions(updated);
+    // Also remove from selectedConsoles if present
+    setSelectedConsoles(selectedConsoles.filter(c => c !== val));
+    localStorage.setItem("consoles", JSON.stringify(updated));
+  };
+
   const [status, setStatus] = React.useState("todo");
   const [personalRating, setPersonalRating] = React.useState("");
   const [comment, setComment] = React.useState("");
@@ -19,7 +47,7 @@ const GameEditModal: React.FC<GameEditModalProps> = ({ open, onClose, onSave }) 
   React.useEffect(() => {
     if (!open) {
       setName("");
-      setConsoleInput("");
+      setSelectedConsoles([]);
       setStatus("todo");
       setPersonalRating("");
       setComment("");
@@ -34,14 +62,14 @@ const GameEditModal: React.FC<GameEditModalProps> = ({ open, onClose, onSave }) 
       setError("Name is required");
       return;
     }
-    if (!consoleInput.trim()) {
-      setError("Console is required");
+    if (!selectedConsoles.length) {
+      setError("At least one console is required");
       return;
     }
     setError("");
     onSave({
       name: name.trim(),
-      console: consoleInput.split(",").map((c) => c.trim()).filter(Boolean),
+      console: selectedConsoles,
       status,
       personalRating: personalRating.trim() || undefined,
       comment: comment.trim() || undefined,
@@ -54,6 +82,43 @@ const GameEditModal: React.FC<GameEditModalProps> = ({ open, onClose, onSave }) 
       <div className="bg-white dark:bg-gray-800 rounded-lg p-6 min-w-[320px] shadow-lg w-full max-w-md">
         <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Add Game</h2>
         <div className="flex flex-col gap-3">
+          {/* Console management UI */}
+          <div>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-200">Manage Consoles</label>
+            <div className="flex gap-2 mb-2">
+              <input
+                type="text"
+                className="px-2 py-1 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 flex-1"
+                placeholder="Add new console"
+                value={consoleInput || ""}
+                onChange={e => setConsoleInput(e.target.value)}
+                onKeyDown={e => {
+                  if (e.key === 'Enter' && consoleInput.trim()) {
+                    handleAddConsole();
+                  }
+                }}
+              />
+              <button
+                type="button"
+                className="px-2 py-1 rounded bg-green-500 text-white hover:bg-green-600"
+                onClick={handleAddConsole}
+                disabled={!consoleInput || consoleOptions.includes(consoleInput.trim())}
+              >Add</button>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {consoleOptions.map(opt => (
+                <span key={opt} className="inline-flex items-center bg-gray-200 dark:bg-gray-700 rounded px-2 py-1 text-xs text-gray-800 dark:text-gray-100">
+                  {opt}
+                  <button
+                    type="button"
+                    className="ml-1 text-red-500 hover:text-red-700"
+                    onClick={() => handleRemoveConsole(opt)}
+                    title="Remove console"
+                  >×</button>
+                </span>
+              ))}
+            </div>
+          </div>
           <input
             className="px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
             placeholder="Game name*"
@@ -61,12 +126,23 @@ const GameEditModal: React.FC<GameEditModalProps> = ({ open, onClose, onSave }) 
             onChange={e => setName(e.target.value)}
             autoFocus
           />
-          <input
+          <select
             className="px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-            placeholder="Console(s), comma-separated*"
-            value={consoleInput}
-            onChange={e => setConsoleInput(e.target.value)}
-          />
+            multiple
+            value={selectedConsoles}
+            onChange={e => {
+              const selected = Array.from(e.target.selectedOptions).map(opt => opt.value);
+              setSelectedConsoles(selected);
+            }}
+          >
+            {consoleOptions.length === 0 && (
+              <option value="" disabled>No consoles found</option>
+            )}
+            {consoleOptions.map(opt => (
+              <option key={opt} value={opt}>{opt}</option>
+            ))}
+          </select>
+          <div className="text-xs text-gray-500">Hold Ctrl (Cmd on Mac) to select multiple consoles.</div>
           <select
             className="px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
             value={status}

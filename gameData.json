@@ -12,7 +12,7 @@
     "id": "3",
     "name": "Mario sunshine",
     "console": [
-      "Gamecube, Nintendo Switch"
+      "Gamecube", "Nintendo Switch"
     ],
     "status": "completed",
     "personalRating": "8/10"
@@ -21,7 +21,7 @@
     "id": "4",
     "name": "Mario galaxy",
     "console": [
-      "Wii, Nintendo Switch"
+      "Wii", "Nintendo Switch"
     ],
     "status": "completed",
     "personalRating": "10/10"
@@ -336,7 +336,7 @@
     "id": "39",
     "name": "Peach",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -489,7 +489,7 @@
     "id": "56",
     "name": "Star fox aventure",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -588,7 +588,7 @@
     "id": "67",
     "name": "Pok\u00e9mon let's go evoli",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1281,7 +1281,7 @@
     "id": "144",
     "name": "The witche 3",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1398,7 +1398,7 @@
     "id": "157",
     "name": "Battlefield",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1578,7 +1578,7 @@
     "id": "177",
     "name": "prince of persia les sables du temps",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1677,7 +1677,7 @@
     "id": "188",
     "name": "Trine",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1704,7 +1704,7 @@
     "id": "191",
     "name": "Half life",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null
@@ -1902,7 +1902,7 @@
     "id": "213",
     "name": "Baldur's Gate III",
     "console": [
-      ""
+      "Any"
     ],
     "status": "todo",
     "personalRating": null

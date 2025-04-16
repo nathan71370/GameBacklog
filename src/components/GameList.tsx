@@ -1,34 +1,56 @@
 import React from "react";
 import { Game } from "../types/Game";
 import GameCard from "./GameCard";
-import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Mousewheel, FreeMode } from 'swiper/modules';
+import 'swiper/css';
+// Optionally import Swiper modules for navigation/pagination
+// import { Navigation, Pagination } from 'swiper/modules';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
 
 interface GameListProps {
   games: Game[];
   onStatusChange: (id: string, newStatus: import("../types/Game").GameStatus) => void;
   onDelete: (id: string) => void;
   onEditComment: (id: string, comment: string) => void;
-  onEditPersonalRating: (id: string, personalRating: string) => void;
   onOpenEndGameModal: (gameId: string) => void;
   onOpenRestartModal: (gameId: string) => void;
 }
 
-const GameList: React.FC<GameListProps> = ({ games, onStatusChange, onDelete, onEditComment, onEditPersonalRating, onOpenEndGameModal, onOpenRestartModal }) => {
+const GameList: React.FC<GameListProps> = ({ games, onStatusChange, onDelete, onEditComment, onOpenEndGameModal, onOpenRestartModal }) => {
   return (
-    <motion.div layout className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 p-2">
-      {games.map((game) => (
-        <GameCard
-          key={game.id}
-          game={game}
-          onStatusChange={onStatusChange}
-          onDelete={onDelete}
-          onEditComment={onEditComment}
-          onEditPersonalRating={onEditPersonalRating}
-          onOpenEndGameModal={onOpenEndGameModal}
-          onOpenRestartModal={onOpenRestartModal}
-        />
-      ))}
-    </motion.div>
+    <div className="w-full">
+      <Swiper
+        modules={[Mousewheel, FreeMode]}
+        mousewheel={{ forceToAxis: true }}
+        freeMode={true}
+        spaceBetween={16}
+        slidesPerView={2}
+        breakpoints={{
+          640: { slidesPerView: 3 },
+          1024: { slidesPerView: 4 }
+        }}
+        // If you want navigation/pagination:
+        // modules={[Navigation, Pagination]}
+        // navigation
+        // pagination={{ clickable: true }}
+        style={{ paddingBottom: '2rem' }}
+      >
+        {games.map((game) => (
+          <SwiperSlide key={game.id} style={{ display: 'flex', justifyContent: 'center' }}>
+            <GameCard
+              game={game}
+              onStatusChange={onStatusChange}
+              onDelete={onDelete}
+              onEditComment={onEditComment}
+              onOpenEndGameModal={onOpenEndGameModal}
+              onOpenRestartModal={onOpenRestartModal}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 

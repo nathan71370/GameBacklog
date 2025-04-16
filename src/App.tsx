@@ -12,22 +12,61 @@ import { fetchRawgCover } from "./api/gameApi";
 import { useState, useMemo, useEffect } from "react";
 
 function App() {
-  // ...other state
+  // Initialize console list in localStorage from games if not present
+  useEffect(() => {
+    const savedConsoles = localStorage.getItem("consoles");
+    if (!savedConsoles) {
+      // Get all unique consoles from games
+      const savedGames = localStorage.getItem("games");
+      let gamesArr: any[] = [];
+      try {
+        gamesArr = savedGames ? JSON.parse(savedGames) : [];
+      } catch {
+        gamesArr = [];
+      }
+      const allConsoles = gamesArr.flatMap((g: any) => g.console)
+        .flatMap((c: string) => c.split(",").map((x: string) => x.trim()))
+        .filter(Boolean);
+      const uniqueConsoles = Array.from(new Set(allConsoles)).sort();
+      localStorage.setItem("consoles", JSON.stringify(uniqueConsoles));
+    }
+  }, []);
+
   // Handler to add a game
   const handleAddGame = async (game: { name: string; console: string[]; status: string; personalRating?: string; comment?: string }) => {
     // Generate unique id
     const id = Math.random().toString(36).slice(2, 10);
     // Fetch cover
     const coverUrl = await fetchRawgCover(game.name);
-    setGames((prev) => [
-      ...prev,
-      { ...game, id, status: game.status as GameStatus, coverUrl: coverUrl || "/default-cover.png" }
-    ]);
+    setGames((prev) => {
+      const updatedGames = [
+        ...prev,
+        { ...game, id, status: game.status as GameStatus, coverUrl: coverUrl || "/default-cover.png" }
+      ];
+      syncConsolesToLocalStorage(updatedGames);
+      return updatedGames;
+    });
   };
 
+  // Handler to import games (update consoles too)
+  const handleImportGames = (importedGames: Game[]) => {
+    setGames(importedGames);
+    syncConsolesToLocalStorage(importedGames);
+  };
+
+  // Helper to sync consoles to localStorage from a list of games
+  const syncConsolesToLocalStorage = (gamesList: Game[]) => {
+    const allConsoles = gamesList
+      .flatMap((g) => Array.isArray(g.console) ? g.console : (typeof g.console === 'string' ? [g.console] : []))
+      .map((c) => c.trim())
+      .filter(Boolean);
+    const uniqueConsoles = Array.from(new Set(allConsoles)).sort();
+    localStorage.setItem("consoles", JSON.stringify(uniqueConsoles));
+  };
 
   // Importing state for JSON import loading
   const [importing, setImporting] = useState(false);
+
   // Dark mode state
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== "undefined") {
@@ -49,26 +88,30 @@ function App() {
     localStorage.setItem("darkMode", String(darkMode));
     console.log("[DarkMode Effect] html.classList:", document.documentElement.classList.value);
   }, [darkMode]);
+
   // Game state
   const [games, setGames] = useState<Game[]>(() => {
     const saved = localStorage.getItem("games");
     return saved ? JSON.parse(saved) : [];
   });
+
   // Filter/search state
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState<GameStatus | undefined>(undefined);
   const [category, setCategory] = useState<string | undefined>(undefined);
   const [consoleFilter, setConsoleFilter] = useState<string | undefined>(undefined);
 
-  // Compute unique categories and consoles from games
+  // Compute unique categories from games
   const categories = useMemo(
     () => Array.from(new Set(games.map((g) => g.category).filter(Boolean))) as string[],
     [games]
   );
-  const consoles = useMemo(
-    () => Array.from(new Set(games.flatMap((g) => g.console))),
-    [games]
-  );
+
+  // Get consoles from localStorage
+  const consoles = useMemo(() => {
+    const stored = localStorage.getItem("consoles");
+    return stored ? JSON.parse(stored) : [];
+  }, [games]); // update when games change (import/add/delete)
 
   // Filter games
   const filteredGames = useMemo(() => {
@@ -108,15 +151,7 @@ function App() {
       localStorage.setItem("games", JSON.stringify(games.map((g) => g.id === id ? { ...g, comment } : g)));
     }, 0);
   };
-
-  // Handler to edit personal rating (grade)
-  const handleEditPersonalRating = (id: string, personalRating: string) => {
-    setGames((prev) => prev.map((g) => g.id === id ? { ...g, personalRating } : g));
-    setTimeout(() => {
-      localStorage.setItem("games", JSON.stringify(games.map((g) => g.id === id ? { ...g, personalRating } : g)));
-    }, 0);
-  };
-
+  
   // Modal state for ending a game
   const [endGameModal, setEndGameModal] = useState<{ open: boolean; gameId?: string }>({ open: false });
   // Modal state for restart confirmation
@@ -157,7 +192,7 @@ function App() {
   const [addModalOpen, setAddModalOpen] = useState(false);
 
   return (
-    <div className="min-h-screen p-4 bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className={darkMode ? "dark min-h-screen p-4 bg-white dark:bg-gray-900 transition-colors duration-300 overflow-x-hidden" : "min-h-screen p-4 bg-white dark:bg-gray-900 transition-colors duration-300 overflow-x-hidden"}>
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-between mb-2">
           <button
@@ -196,7 +231,8 @@ function App() {
                   return g;
                 }));
                 // Merge with existing games (optionally deduplicate by name)
-                setGames((prev) => [...prev, ...importedWithCovers]);
+                const merged = [...games, ...importedWithCovers];
+                handleImportGames(merged);
                 setImporting(false);
                 e.target.value = ""; // Reset file input
               }}
@@ -235,7 +271,6 @@ function App() {
             onStatusChange={handleStatusChange}
             onDelete={handleDeleteGame}
             onEditComment={handleEditComment}
-            onEditPersonalRating={handleEditPersonalRating}
             onOpenEndGameModal={handleOpenEndGameModal}
             onOpenRestartModal={handleOpenRestartModal}
           />
