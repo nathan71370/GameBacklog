@@ -25,6 +25,8 @@ git clone https://github.com/nathan71370/GameBacklog.git
 cd GameBacklog
 ```
 
+Don't forget to modify the .env file and add your RAWG api key to retrieve covers!
+
 ### 2. Install dependencies
 ```sh
 npm install
