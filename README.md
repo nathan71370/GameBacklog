@@ -47,7 +47,7 @@ The app will be available at [http://localhost:5173](http://localhost:5173) by d
 - All data is stored in your browser (localStorage).
 - You can export/import your backlog as JSON from the UI.
 
-https://buymeacoffee.com/azrodorza
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/azrodorza)
 
 ## License
 MIT
