@@ -25,6 +25,8 @@ git clone https://github.com/nathan71370/GameBacklog.git
 cd GameBacklog
 ```
 
+Don't forget to modify the .env file and add your RAWG api key to retrieve covers!
+
 ### 2. Install dependencies
 ```sh
 npm install
@@ -47,7 +49,7 @@ The app will be available at [http://localhost:5173](http://localhost:5173) by d
 - All data is stored in your browser (localStorage).
 - You can export/import your backlog as JSON from the UI.
 
-https://buymeacoffee.com/azrodorza
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/azrodorza)
 
 ## License
 MIT
